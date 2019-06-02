@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tesla</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4927a29798.js"></script>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <nav>
+            <img src="img/Tesla-logo.png" alt="Tesla-logo">
+            <ul>
+                <li><a href="#">LINK 1</a></li>
+                <li><a href="#">LINK 2</a></li>
+                <li><a href="#">LINK 3</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="textBox">
+                <h1>GRATIS TABLET ZA PRVIH 100</h1>
+                <img src="img/sto-da-ne-naslov-manji.png" alt="sto-da-ne-naslov">
+                <p>
+                    Budite među prvih 100 kupaca Tesla Smartphone-a <br>
+                    9.2, jer na poklon dobijate Tesla Tablet L7.1! <br>
+                    <span>Dva uređaja po ceni jednog-pa STO da ne?</span>
+                </p>
+                <button>SMARTPHONE 9.2</button>
+            </div>
+            <div>
+                <img id="zoom"src="img/Telefon-tablet-slider.png" alt="tablet">
+            </div>
+        </main>
+
+    </div>
+    <form action="#">
+        <h1>OSTAVI SVOJE PODATKE</h1>
+        <div id="slash"></div>
+        <div id="formContainer">
+            <div>
+                <input type="date" placeholder="Dan i datum">
+                <input type="email" name="Email" id="email" placeholder="Email" required>
+            
+                <div
+            class="g-recaptcha recaptcha"
+            data-sitekey="6LeIXaYUAAAAAGo_tFswPdlqdSJ5_Jw8yX4W30my"
+            data-theme="dark"
+          ></div>
+        </div>
+        <div>
+            </div>
+            <div>
+                <input type="text" id="ime" placeholder=" IMEI"
+                    >
+                    <span id="ringSpan" class="tooltip">
+                           
+                        <i class="far fa-life-ring ring">&nbsp;POMOĆ <span class="tooltiptext">IMEI i broj ce se pojaviti na <br> ekranu nakon što ukucate *#06#</span></i></span>
+                <textarea name="comment" id="comment" cols="20" rows="5" placeholder="Komentar"></textarea>
+            </div>
+        </div>
+        <button>POŠALJI</button>
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- https://webdesign.tutsplus.com/tutorials/how-to-integrate-no-captcha-recaptcha-in-your-website--cms-23024 -->
+</body>
+
+</html>
